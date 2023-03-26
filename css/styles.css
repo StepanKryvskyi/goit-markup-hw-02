@@ -1,0 +1,53 @@
+/* All colors of all pages : #4D5AE5; #404BBF; #2E2F42; #31D0AA; #434455; #8E8F99; #FCFCFC; #FFFFFF; #2E2F42; #2E2F42 #F4F4FD; #E7E9FC; 
+ */
+:root {
+  --primary-text-color: #434455;
+  --primary-white-color: #ffffff;
+  --titel-text-color: #2e2f42;
+  --button-color: #4d5ae5;
+}
+body {
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+/* Header */
+.logo {
+  color: #4d5ae5;
+  font-family: raleway, sans-serif;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+}
+.logo-header {
+  color: var(--titel-text-color);
+}
+.contacts-link {
+  color: var(--primary-text-color);
+}
+/* Hero */
+.hero {
+  background-color: var(--titel-text-color);
+  text-align: center;
+}
+.hero-titel {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+button {
+  background-color: var(--button-color);
+  color: var(--primary-white-color);
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--titel-text-color);
+}
