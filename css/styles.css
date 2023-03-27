@@ -5,9 +5,10 @@
   --primary-white-color: #ffffff;
   --titel-text-color: #2e2f42;
   --button-color: #4d5ae5;
+  --acsent-color: #404bbf;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   background-color: #ffffff;
@@ -15,7 +16,7 @@ body {
 /* Header */
 .link {
   color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -26,9 +27,16 @@ body {
 .link-header {
   color: var(--titel-text-color);
 }
-.contacts-link {
-  color: var(--primary-text-color);
+
+.contacts-link{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
 }
+
 /* Hero */
 .hero {
   background-color: var(--titel-text-color);
@@ -40,9 +48,69 @@ body {
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
-button {
+.btn {
   background-color: var(--button-color);
   color: var(--primary-white-color);
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0, 04em;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--acsent-color);
+}
+.list {
+  list-style: none;
+}
+
+.list.titel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--titel-text-color);
+}
+.list.text {
+  line-height: 1.5;
+}
+.heading {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--titel-text-color);
+}
+/* Portfolio button */
+.ptf-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.ptf-btn:hover,
+.ptf-btn:focus {
+  background-color: var(--acsent-color);
+}
+/* Footer */
+.footer {
+  background-color: var(--titel-text-color);
+}
+.link-footer {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
 }
