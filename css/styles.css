@@ -7,20 +7,23 @@
   --button-color: #4d5ae5;
 }
 body {
-  font-family: roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   background-color: #ffffff;
 }
 /* Header */
-.logo {
+.link {
   color: #4d5ae5;
-  font-family: raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-.logo-header {
+.link-header {
   color: var(--titel-text-color);
 }
 .contacts-link {
@@ -41,13 +44,5 @@ body {
 button {
   background-color: var(--button-color);
   color: var(--primary-white-color);
-
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--titel-text-color);
+  cursor: pointer;
 }
