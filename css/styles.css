@@ -1,5 +1,8 @@
 /* All colors of all pages : #4D5AE5; #404BBF; #2E2F42; #31D0AA; #434455; #8E8F99; #FCFCFC; #FFFFFF; #2E2F42; #2E2F42 #F4F4FD; #E7E9FC; 
  */
+
+/*Base styles */
+
 :root {
   --primary-text-color: #434455;
   --primary-white-color: #ffffff;
@@ -13,8 +16,9 @@ body {
   color: var(--primary-text-color);
   background-color: #ffffff;
 }
+
 /* Header */
-.link {
+.logo-link {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -24,17 +28,17 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.link-header {
+.logo-header {
   color: var(--titel-text-color);
 }
 
-.contacts-link{
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--primary-text-color);
+.contacts-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
 /* Hero */
@@ -87,6 +91,7 @@ color: var(--primary-text-color);
   text-transform: capitalize;
   color: var(--titel-text-color);
 }
+
 /* Portfolio button */
 .ptf-btn {
   font-family: "Roboto", sans-serif;
@@ -101,12 +106,14 @@ color: var(--primary-text-color);
 .ptf-btn:hover,
 .ptf-btn:focus {
   background-color: var(--acsent-color);
+  color: var(--primary-white-color);
 }
+
 /* Footer */
 .footer {
   background-color: var(--titel-text-color);
 }
-.link-footer {
+.logo-footer {
   color: #f4f4fd;
 }
 .footer-text {
