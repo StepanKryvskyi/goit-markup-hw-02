@@ -26,6 +26,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
+  text-transform: uppercase
 }
 .logo-header {
   color: var(--titel-text-color);
@@ -43,6 +44,9 @@ body {
 .menu-link:hover,
 :focus {
   color: var(--acsent-color);
+}
+.contacts{
+  font-style: normal
 }
 
 .contacts-link {
@@ -165,6 +169,7 @@ body {
 
 .portfolio-link {
   text-decoration: none;
+  font-family: 'Roboto';
 }
 
 .caption {
