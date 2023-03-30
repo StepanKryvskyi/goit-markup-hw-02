@@ -19,47 +19,48 @@ body {
 
 /* Header */
 .link {
+  font-style: normal;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+.logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-decoration: none;
-  text-transform: uppercase
 }
+
 .logo-header {
   color: var(--titel-text-color);
 }
 
 .menu-link {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--titel-text-color);
-  text-decoration: none;
 }
 .menu-link:hover,
 :focus {
   color: var(--acsent-color);
 }
-.contacts{
-  font-style: normal
+.contacts {
+  font-style: normal;
 }
 
 .contacts-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  
 }
-.contacts-link:hover,:focus{
+.contacts-link:hover,
+:focus {
   color: var(--acsent-color);
 }
 
@@ -78,7 +79,7 @@ body {
 }
 .btn {
   background-color: var(--button-color);
- 
+
   color: var(--primary-white-color);
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -168,8 +169,7 @@ body {
 }
 
 .portfolio-link {
-  text-decoration: none;
-  font-family: 'Roboto';
+  background: var(--primary-white-color);
 }
 
 .caption {
